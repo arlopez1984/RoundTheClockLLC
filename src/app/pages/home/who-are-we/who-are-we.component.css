@@ -1,0 +1,68 @@
+.who-are-we{  
+  width: 100%;  
+  background-color: rgb(19, 18, 18);
+  color: rgb(248,207,9);     
+  height: auto;  
+  margin-top: 30px;
+}
+.who-are-we h1{
+  font-size:24px; 
+  font-family: 'Dancing Script', cursive;
+  margin-left: 10px;
+  margin-right: 10px;   
+}
+.list__images{
+  display: flex;  
+  justify-content: center;
+  align-items: center;    
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  
+}
+.about-us{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.list__images img{
+  border-radius: 10px;
+  width: 23%;
+  height: auto;
+  margin: 10px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+ 
+}
+.list__images img:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px)  {
+  .about-us h1{
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 20px;
+  }
+  .who-are-we{
+    margin-top: 0px;
+  }
+  .list__images{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .list__images img{
+    width: 100%;
+    margin: 5px;
+    margin-bottom: 10px;
+  }
+  .who-are-we h1{
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 18px;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    line-height: 1.5;
+  }
+}

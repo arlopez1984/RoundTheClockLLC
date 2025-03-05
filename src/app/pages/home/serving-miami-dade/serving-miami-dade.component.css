@@ -1,0 +1,42 @@
+.where-we-work{
+    display: flex;
+    justify-content: center;
+    width: 81%;
+    margin-left: 10px;
+    height: 140px; 
+    background: rgb(199,195,62);
+    background: linear-gradient(71deg, rgba(199,195,62,1) 57%, rgba(13,13,1,1) 100%);  
+    margin-top: 15px; 
+    border-radius: 10px;
+    padding: 10px;
+}
+.where-we-work__text p{
+    margin-top: 33px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    align-items: center;
+    text-align: center; 
+    font-weight: 700; 
+    color: rgb(7, 7, 7); 
+    display: flex;  
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    border-right: 2px solid transparent; /* Cursor invisible por defecto */
+    animation: typing 4s steps(30, end) forwards;
+}
+
+
+.where-we-work__text p:hover {
+    border-right: 2px solid black; /* Cursor aparece al pasar el mouse */
+    animation: typing 4s steps(30, end) forwards, blinkCursor 0.8s steps(2, start) infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blinkCursor {
+    50% { border-color: transparent; }
+  }

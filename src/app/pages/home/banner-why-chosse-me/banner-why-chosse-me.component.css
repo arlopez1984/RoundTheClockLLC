@@ -1,0 +1,71 @@
+.banner-why-chosse-me {
+    display: flex;    
+    justify-content: center;
+    align-items: center;    
+    background-color: transparent;
+    border-radius: 10px;   
+    margin-top: 10px;
+    width: 100%; 
+  }
+  .banner-why-chosse-me .images24{    
+    width:50%;
+  }
+  .banner-why-chosse-me img{    
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    border-radius: 10px; 
+    margin-left: 20px;   
+  }
+ 
+  .banner-why-chosse-me .elementos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;    
+    font-size: 22px;    
+    gap: 10px;    
+    margin-top: 40px;
+  }  
+  .banner-why-chosse-me .elementos p{
+    text-align: center;
+  }
+  .banner-why-chosse-me h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #121111;
+    font-size: 36px;
+    margin-top: 20px;
+  }  
+  @media (max-width: 768px){
+    .banner-why-chosse-me {
+      display: flex;
+      flex-direction: column;
+      align-items: center;   
+      background-color: transparent;
+      text-align: center; 
+      width: 100%;
+      height: auto;  
+    }
+
+    .banner-why-chosse-me h2 {
+      font-family: 'Times New Roman', Times, serif;
+      color: #121111;
+      font-size: 25px;
+      margin-top: 10px;
+    }  
+    .banner-why-chosse-me .elementos{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      gap: 10px;    
+      margin-top: 40px;
+      margin-right: 10px;
+    }
+  }
+   
+  
+  

@@ -1,0 +1,107 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background-color: transparent;
+    text-align: center; 
+    width: 100%;   
+    
+}
+.banner h2 {
+  width: 100%;
+  font-family: 'Dancing Script', cursive;
+  height: 80px;
+  color: #121111;
+  font-size: 36px;    
+  background-color: transparent;
+  text-align: center;
+  margin-top: 20px;
+}
+
+  
+  .banner p{
+    font-family: 'Dancing Script', cursive;;
+    margin-top: 40px;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  
+  
+  
+.how-its{   
+  font-family: 'Dancing Script', cursive; 
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 20px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  position: relative; 
+}
+.icons__howIts{    
+  gap: 10px;
+  display: flex;
+  flex-direction: row;   
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 70px;
+  
+  
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+  margin-top: 10px;
+ 
+}
+.icons img{
+  width: 50px;   
+  height: auto;     
+}
+
+
+@media (max-width: 768px) {
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background-color: transparent;
+    text-align: center; 
+    width: 100%;
+    height: auto;    
+   
+}
+  .banner h2 {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    height: 80px;
+    color: #121111;
+    font-size: 25px;    
+    background-color: transparent;
+    text-align: center;
+    /*margin-top: 420px es para cuando funciona la mensajeria*/
+    margin-top: 20px;
+  }
+  .banner p{
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    line-height: 1.5;
+  }
+}
+
+  
+
+

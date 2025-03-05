@@ -1,0 +1,30 @@
+<div class="form-container">
+    <h3>Get a Quote</h3>
+    <form [formGroup]="quoteForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" formControlName="name" placeholder="Ingrese su nombre">
+        <small *ngIf="quoteForm.get('name')?.invalid && quoteForm.get('name')?.touched">
+          Name is required.
+        </small>
+      </div>
+  
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" formControlName="email" placeholder="Ingrese su email">
+        <small *ngIf="quoteForm.get('email')?.invalid && quoteForm.get('email')?.touched">
+          Email invalid.
+        </small>
+      </div>
+  
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" formControlName="phone" placeholder="Ingrese su teléfono">
+        <small *ngIf="quoteForm.get('phone')?.invalid && quoteForm.get('phone')?.touched">
+          The phone number is invalid.
+        </small>
+      </div>
+  
+      <button type="submit" [disabled]="quoteForm.invalid">Send</button>
+    </form>
+  </div>

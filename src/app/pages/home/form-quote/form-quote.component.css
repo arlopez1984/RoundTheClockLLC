@@ -1,0 +1,83 @@
+.form-container {
+    width: 100%;
+    width: 300px;
+    max-width: 500px;
+    padding: 20px;
+    background: black;
+    border: 2px solid rgb(248,207,9);
+    border-radius: 10px;
+    height: auto;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 465px;
+    visibility: hidden;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: rgb(250, 222, 85);
+  }
+  h3{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(250, 222, 85);
+    color: black;
+    font-weight: bold;
+    border: none;    
+    border-radius: 5px;    
+    text-align: center;
+    margin-bottom: 20px;    
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgb(248,207,9);
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    
+  }
+  
+  input::placeholder {
+    color: rgb(250, 222, 85);
+  }
+  
+  small {
+    color: red;
+    font-size: 12px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;   
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(250, 222, 85);
+  }
+  
+  button:disabled {
+    background-color: rgb(250, 222, 85);
+    cursor: not-allowed;
+  }
+
+@media (max-width: 768px) {
+  .form-container {      
+    background: black;
+    border: 2px solid rgb(248,207,9);
+    border-radius: 10px;    
+    position: absolute;
+    margin-top: 210px;
+    width: 350px;
+    margin-left: -173px; 
+    visibility: hidden;
+  }
+}

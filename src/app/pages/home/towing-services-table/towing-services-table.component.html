@@ -1,0 +1,11 @@
+<div class="contenedor">
+    <h1>Our services in Miami-Dade and surrounding areas</h1>
+    <table>
+        <tbody>
+          <tr *ngFor="let service of towingServices; let i = index">        
+            <td>{{ service.name }}</td>
+            <td>{{ service.description }}</td>
+          </tr>
+        </tbody>
+    </table>
+</div>

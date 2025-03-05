@@ -1,0 +1,8 @@
+<div class="card">
+    <img [src]="imageUrl" alt="Imagen del servicio">
+    <h3>{{ title }}</h3>
+    <div class="description">
+        <p *ngFor="let line of description">{{ line }}</p> <!-- Cada línea en un párrafo -->
+    </div>
+    <!--button>{{ buttonText }}</button-->
+</div>

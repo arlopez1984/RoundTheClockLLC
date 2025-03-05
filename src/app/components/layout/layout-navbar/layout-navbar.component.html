@@ -1,0 +1,12 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<div class="horizontal-navbar">  
+    <img src="assets/icono-ram2-remove.png" alt="Logo" class="logo">
+    <!--img src="assets/name-company-v2.png" alt="name" class="name-company"-->
+    <mat-toolbar class="buttons-toolbar" >                 
+        <button mat-button [routerLink]="['/home']" routerLinkActive="router-link-active" >Home</button>
+        <button mat-button  [routerLink]="['/services']" onclick="location.href='#destino'" routerLinkActive="router-link-active" >Services</button>
+        <button mat-button  [routerLink]="['/register']" routerLinkActive="router-link-active" >Contacts</button>   
+        <button mat-button  [routerLink]="['/reports']" routerLinkActive="router-link-active" >Reports</button>
+    </mat-toolbar>     
+</div>
